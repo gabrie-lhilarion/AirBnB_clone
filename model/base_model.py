@@ -1,4 +1,5 @@
-
+#!/usr/bin/python3
+"""Defines the BaseModel class."""
 
 import uuid
 from datetime import datetime
@@ -28,15 +29,3 @@ class BaseModel:
         obj_dict['updated_at'] = self.updated_at.isoformat()
         return obj_dict
 
-# Example usage:
-if __name__ == "__main__":
-    base_model_instance = BaseModel()
-    print(base_model_instance)
-    
-    # Update and save
-    base_model_instance.save()
-    print(base_model_instance)
-    
-    # Convert to dictionary
-    base_model_dict = base_model_instance.to_dict()
-    print(base_model_dict)
