@@ -76,3 +76,5 @@ class TestState(unittest.TestCase):
     def test_instantiation_with_None_kwargs(self):
         with self.assertRaises(TypeError):
             State(id=None, created_at=None, updated_at=None)
+if __name__ == "__main__":
+    unittest.main()

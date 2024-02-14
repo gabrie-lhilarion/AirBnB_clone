@@ -31,3 +31,6 @@ class TestUser(unittest.TestCase):
         """Module documentation"""
         doc = User.__doc__
         self.assertGreater(len(doc), 1)
+        
+if __name__ == "__main__":
+    unittest.main()
