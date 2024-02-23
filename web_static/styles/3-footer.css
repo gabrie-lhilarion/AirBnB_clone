@@ -7,4 +7,6 @@ footer {
     display: flex;
     justify-content: center;
     line-height: 60px;
+    position: fixed;
+    bottom: 0px;
 }
