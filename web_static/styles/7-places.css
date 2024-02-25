@@ -1,0 +1,17 @@
+.places h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.place_inner{
+    background-color: #FF5A5F;
+}
+
+.place_inner  article{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  
+}
